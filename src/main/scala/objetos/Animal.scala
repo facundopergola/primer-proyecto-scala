@@ -3,17 +3,16 @@ package objetos
 class Animal(patas: Int, pelo: String) {
 
   private val cantidadPatas: Int = patas
-  private val colorDePelo: String = pelo
+  private  val colorDePelo: String = pelo
 
-  def getCantidadPatas(): Int = {
-    return cantidadPatas
+   def getCantidadPatas(): Int = {
+     cantidadPatas
   }
 
-  def getcolorDePelo(): String = {
+   def getcolorDePelo(): String = {
     colorDePelo
   }
-
-
 }
+
 
 
