@@ -8,6 +8,6 @@ object Main {
     println(motocicleta.getPeso())
     println(motocicleta.getcolor())
     println(motocicleta.getMarca())
-    println(motocicleta.getCantidadRuedas())
+    println(motocicleta.getRuedas())
   }
 }
