@@ -7,4 +7,6 @@ case class Perro(patas: Int, pelo: String, size: Int) extends Animal(patas, pelo
      val mensaje: String = s"${_size} MTS"
      mensaje
    }
+
+
 }
